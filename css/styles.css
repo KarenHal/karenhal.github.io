@@ -1,0 +1,514 @@
+.header {
+    height: 100vh;
+    background-image: url(../img/1600x800px-Ararat-Ararat-Khor-Virap_HWK8474.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_block_header {
+    margin: 0px 70px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.img_block_header img {
+    margin: 10px
+}
+
+.menu_block_header {
+    margin: 0px 110px;
+    z-index: 100;
+}
+
+.menu_block_header ul li {
+    z-index: 100;
+    display: inline;
+    margin: 0px 35px;
+}
+
+.menu_block_header ul li a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    opacity: .3;
+    transition: .2s ease-in-out;
+    border-bottom: 0px solid #D95A53;
+}
+
+.menu_block_header ul li a:hover {
+    color: #D95A53;
+    opacity: 1;
+    border-bottom: 2px solid #D95A53;
+}
+
+.background_header_menu {
+    position: absolute;
+    margin: 0px;
+    height: 80px;
+    width: 100%;
+    background-image: url(../img/bg.png);
+}
+
+.main_block_1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 150px;
+}
+
+.main_block_2 {
+    height: 430px;
+    background-color: #083742;
+}
+
+.content_block_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.block_2_block {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 140px;
+    margin-top: 45px;
+}
+
+.block_2_block img {
+    margin-bottom: 45px;
+}
+
+.content_block_2 p {
+    font-family: 'Tw Cen MT', sans-serif;
+    color: #53D483;
+    font-size: 30px;
+}
+
+.main_block_2_footer {
+    font-family: 'Tw Cen MT', sans-serif;
+    color: #EFDF16;
+    font-size: 47px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main_block_3 {
+    margin: 0px 150px;
+    margin-top: 85px;
+}
+
+.img_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_block {
+    margin: 4px;
+}
+
+.bg {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.container h2 {
+    position: absolute;
+    font-family: 'Tw Cen MT', sans-serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 10px;
+    transform: .3s ease;
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_blocks {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_blocks a{
+    display: inline-block;
+    width: 500px;
+    margin: 5px;
+}
+.img_blocks a div{
+    background: #000;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+    overflow: hidden;  /* Ограничиваем видиую область */
+}
+.img_blocks a div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
+	width: 100%;
+	height: auto;
+    display: block; /* Убираем полосу под картинкий */
+}
+.img_blocks a:hover div img{
+    opacity: 0.6; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img_blocks a:hover .container h2{
+    visibility: visible;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 54px 0px;
+}
+
+.btn button {
+    background: none;
+    border: 3px solid #53D483;
+    font-size: 22px;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    color: #53D483;
+    border-radius: 5px;
+    padding: 11px 45px;
+    transition: .3s ease-in-out all;
+}
+
+.btn button:hover {
+    border-radius: 15px;
+}
+
+.text {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 85px;
+    color: #53D483;
+}
+
+.footer {
+    background-color: #083742;
+    height: 300px;
+}
+
+.footer h2 {
+    font-family: 'Tw Cen MT', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 65px;
+    padding-bottom: 34px;
+    letter-spacing: 5px;
+    color: #B3B3B3;
+}
+
+.contact_blocks {
+    margin-left: 222px;
+}
+
+.contacts_block {
+    margin: 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Shree Devanagari 714', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .menu_block_header ul li a {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: 100;
+        cursor: pointer;
+        opacity: .3;
+        transition: .2s ease-in-out;
+        border-bottom: 0px solid #D95A53;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .header_div {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .header_div ul li {
+        flex-flow: column;
+        display: flex;
+        text-align: center;
+        font-size: 50px;
+        margin: 35px 35px;
+    }
+
+    .background_header_menu {
+        height: 9%;
+    }
+
+    .block_1_content {
+        display: flex;
+    }
+
+    .main_block_1 img {
+        display: flex;
+        width: 950px;
+        justify-content: center;
+    }
+
+    .content_block_2 {
+        justify-content: space-around;
+    }
+    
+    .footer {
+        background-color: #083742;
+        background-image: none;
+    }
+
+    .contact_blocks {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        height: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .background_header_menu {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .header_div {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .menu_block_header ul {
+        justify-content: flex-end;
+        height: 100%;
+        width: 700px;
+        flex-flow: column;
+        align-items: flex-end;
+    }
+
+    .background_header_menu {
+        height: 25%;
+    }
+
+    .menu_block_header ul li {
+        margin: 5px 0px;
+    }
+
+    .main_block_2 {
+        height: 100%;
+    }
+
+    .content_block_2 {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .main_block_2_footer {
+        padding: 20px 0px;
+    }
+
+    .main_block_1 img {
+        display: flex;
+        width: 700px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main_block_1 img {
+        display: flex;
+        width: 400px;
+        justify-content: center;
+    }
+    .menu_block_header ul {
+        width: 400px;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text p {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .main_block_3 {
+        width: 400px;
+        margin-left: 12px;
+    }
+
+    .main_block_2_footer p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .main_block_1 img {
+        display: flex;
+        width: 390px;
+        justify-content: center;
+    }
+    .menu_block_header ul {
+        width: 390px;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .background_header_menu {
+        height: 35%;
+    }
+    .text p {
+        width: 390px;
+        font-size: 20px;
+    }
+
+    .main_block_3 {
+        width: 390px;
+        margin-left: 12px;
+    }
+
+    .main_block_2_footer p {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .main_block_1 img {
+        display: flex;
+        width: 350px;
+        justify-content: center;
+    }
+
+    .menu_block_header ul {
+        width: 350px;
+    }
+    .menu_block_header ul li a {
+        font-size: 20px;
+    }
+
+    .background_header_menu {
+        height: 40%;
+    }
+
+    .img_blocks a {
+        height: 100%;
+    }
+
+    .container {
+        width: 370px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text p {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .main_block_3 {
+        width: 350px;
+        margin-left: 12px;
+    }
+    .main_block_2_footer p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main_block_1 img {
+        display: flex;
+        width: 300px;
+        justify-content: center;
+    }
+    .menu_block_header ul {
+        width: 300px;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text p {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .img_blocks {
+        width: 230px;
+        margin-left: 20px;
+    } 
+
+    .main_block_3 {
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .main_block_2_footer p {
+        font-size: 20px;
+    }
+
+    .btn {
+        text-align: center;
+        display: block;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .text  {
+        width: 300px;
+    }
+
+    .main_block_3 {
+        margin: 0px;
+    }
+
+    .main_block_2_footer {
+        font-size: 30px;
+    }
+}

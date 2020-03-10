@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Tw Cen MT';
+    src: url('TwCenMT-Regular.eot');
+    src: url('TwCenMT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TwCenMT-Regular.woff2') format('woff2'),
+        url('TwCenMT-Regular.woff') format('woff'),
+        url('TwCenMT-Regular.ttf') format('truetype'),
+        url('TwCenMT-Regular.svg#TwCenMT-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMTBold.eot');
+    src: url('ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMTBold.woff2') format('woff2'),
+        url('ArialRoundedMTBold.woff') format('woff'),
+        url('ArialRoundedMTBold.ttf') format('truetype'),
+        url('ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Shree Devanagari 714';
+    src: url('ShreeDev0714.eot');
+    src: url('ShreeDev0714.eot?#iefix') format('embedded-opentype'),
+        url('ShreeDev0714.woff2') format('woff2'),
+        url('ShreeDev0714.woff') format('woff'),
+        url('ShreeDev0714.ttf') format('truetype'),
+        url('ShreeDev0714.svg#ShreeDev0714') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DV_ME_Shree0714';
+    src: url('DV_ME_Shree0714.eot');
+    src: url('DV_ME_Shree0714.eot?#iefix') format('embedded-opentype'),
+        url('DV_ME_Shree0714.woff2') format('woff2'),
+        url('DV_ME_Shree0714.woff') format('woff'),
+        url('DV_ME_Shree0714.ttf') format('truetype'),
+        url('DV_ME_Shree0714.svg#DV_ME_Shree0714') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tw Cen MT';
+    src: url('TwCenMT-Bold.eot');
+    src: url('TwCenMT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TwCenMT-Bold.woff2') format('woff2'),
+        url('TwCenMT-Bold.woff') format('woff'),
+        url('TwCenMT-Bold.ttf') format('truetype'),
+        url('TwCenMT-Bold.svg#TwCenMT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Roman.eot');
+    src: url('AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Roman.woff2') format('woff2'),
+        url('AvenirLTStd-Roman.woff') format('woff'),
+        url('AvenirLTStd-Roman.ttf') format('truetype'),
+        url('AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Book.eot');
+    src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Book.woff2') format('woff2'),
+        url('AvenirLTStd-Book.woff') format('woff'),
+        url('AvenirLTStd-Book.ttf') format('truetype'),
+        url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Regular.eot');
+    src: url('Helvetica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Regular.woff2') format('woff2'),
+        url('Helvetica-Regular.woff') format('woff'),
+        url('Helvetica-Regular.ttf') format('truetype'),
+        url('Helvetica-Regular.svg#Helvetica-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Light.eot');
+    src: url('Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica-Light.woff2') format('woff2'),
+        url('Helvetica-Light.woff') format('woff'),
+        url('Helvetica-Light.ttf') format('truetype'),
+        url('Helvetica-Light.svg#Helvetica-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Black.eot');
+    src: url('AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Black.woff2') format('woff2'),
+        url('AvenirLTStd-Black.woff') format('woff'),
+        url('AvenirLTStd-Black.ttf') format('truetype'),
+        url('AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

@@ -1,0 +1,597 @@
+.header_garni {
+    height: 100vh;
+    background-image: url(../img/garnifon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_block_header {
+    margin: 0px 70px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.img_block_header img {
+    margin: 10px
+}
+
+.menu_block_header {
+    margin: 0px 110px;
+    z-index: 100;
+}
+
+.menu_block_header ul li {
+    z-index: 100;
+    display: inline;
+    margin: 0px 35px;
+}
+
+.menu_block_header ul li a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    opacity: .3;
+    transition: .2s ease-in-out;
+    border-bottom: 0px solid #D95A53;
+}
+
+.menu_block_header ul li a:hover {
+    color: #D95A53;
+    opacity: 1;
+    border-bottom: 2px solid #D95A53;
+}
+
+.background_header_menu {
+    position: absolute;
+    margin: 0px;
+    height: 80px;
+    width: 100%;
+    background-image: url(../img/bg.png);
+}
+
+.img_block {
+    content: '';
+    position: absolute;
+    left: 37%;
+    top: 77%;
+}
+
+.block_1 {
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 47px;
+    color: #075570;
+    font-family: 'Tw Cen MT', sans-serif;
+    padding-top: 111px;
+    margin-bottom: 50px;
+}
+
+
+.list_start p {
+    font-family: 'Shree Devanagari 714', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #53D483;
+    display: inline;
+}
+
+.list-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_end p {
+    margin: 0px 16px;
+    font-family: 'Shree Devanagari 714', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #D95A53;
+    display: inline;
+}
+
+.poloska_father {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.poloska {
+    width: 190px;
+    height: 1px;
+    background-color: #D95A53;
+}
+
+.btn button {
+    margin-top: 30px;
+    background: none;
+    border: 3px solid #53D483;
+    font-size: 22px;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    color: #999993;
+    border-radius: 15px;
+    padding: 9px 27px;
+    transition: .3s ease-in-out all;
+}
+
+.block_1_2 h3 {
+    margin-bottom: 30px;
+    color: #075570;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    font-size: 30px;
+    font-family: 'Tw Cen MT', sans-serif;
+}
+
+.block_1_2 img {
+    margin-bottom: 70px;
+}
+
+.block_1_3 h3 {
+    margin-bottom: 40px;
+    font-size: 56px;
+    color: #075570;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-family: 'Tw Cen MT', sans-serif;
+}
+
+.block_1_3_text h3 {
+    color: #075570;
+    display: inline;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    font-size: 35px;
+    font-family: 'Tw Cen MT', sans-serif;
+    margin: 0;
+}
+
+.block_1_3_text span {
+    color: #53D483;
+    font-weight: 1000;
+    font-size: 28px;
+    font-family: 'Avenir', sans-serif;
+}
+
+.wrapper {
+    margin: 0px 375px;
+}
+
+.block_1 {
+    background-color: #F2F2F2;
+    margin-bottom: 70px;
+}
+
+.block_1_3_text  {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: #075570;
+    font-size: 28px;
+    font-family: 'Avenir', sans-serif;
+}
+
+.block_1_3_text p {
+    font-weight: 200;
+}
+
+.block_1_3_texts {
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+.main_block_3 {
+    margin: 0px 150px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.main_block_3 h2 {
+    font-family: 'Tw Cen MT', sans-serif;
+    font-weight: 600;
+    color: #075570;
+    letter-spacing: 3px;
+    font-size: 46px;
+    margin-bottom: 65px;
+}
+
+.img_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_block {
+    margin: 4px;
+}
+
+.bg {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.container h2 {
+    position: absolute;
+    font-family: 'Tw Cen MT', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    transform: .3s ease;
+    margin: 0px;
+    padding: 0px;
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_blocks {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.img_blocks a{
+    display: inline-block;
+    width: 500px;
+    margin: 5px;
+}
+.img_blocks a div{
+    background: #000;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+    overflow: hidden;  /* Ограничиваем видиую область */
+}
+.img_blocks a div img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
+	width: 100%;
+	height: auto;
+    display: block; /* Убираем полосу под картинкий */
+}
+.img_blocks a:hover div img{
+    opacity: 0.6; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.05); /* Увеличение картинки */
+}
+.img_blocks a:hover .container h2{
+    visibility: visible;
+    z-index: 1000;
+}
+
+.hrair_hawk_main {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Tw Cen MT', sans-serif;
+    color: #808080;
+    margin-bottom: 60px;
+}
+
+.footer {
+    background-color: #083742;
+    height: 300px;
+}
+
+.footer h2 {
+    font-family: 'Tw Cen MT', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 65px;
+    letter-spacing: 5px;
+    color: #B3B3B3;
+}
+
+.contact_blocks {
+    margin-left: 222px;
+}
+
+.contacts_block {
+    margin: 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Shree Devanagari 714', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer {
+    background-image: url(../img/footerbgnew.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 2560px) {
+    .img_block {
+        left: 40%;
+        top: 78%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .menu_block_header ul li a {
+        font-size: 18px;
+    }
+
+    .img_block {
+        left: 34%;
+        top: 60%;
+    }
+    .block_1_3_text h3 {
+        font-size: 20px;
+        letter-spacing: 0px;
+
+    }
+
+    .block_1_3_text span {
+        font-size: 20px;
+        letter-spacing: 0px;
+
+    }
+    
+    .block_1_3_texts {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0px;
+
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .menu_block_header ul li a {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 15px;
+        color: white;
+        font-weight: 100;
+        cursor: pointer;
+        opacity: .3;
+        transition: .2s ease-in-out;
+        border-bottom: 0px solid #D95A53;
+    }
+
+    .img_block {
+        left: 33%;
+        top: 72%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .img_block {
+        left: 28%;
+        top: 82%;
+    }
+
+    .wrapper {
+        margin: 0 10px;
+    }
+    .menu_block_header ul {
+        display: flex;
+        flex-flow: column;
+        font-size: 50px;
+        margin: 0px;
+        float: right;
+    }
+
+    .background_header_menu {
+        height: 350px;
+    }
+
+    .header_div {
+        justify-content: space-between;
+        flex-flow: column;
+        text-align: center;
+        display: flex;
+    }
+    .content_block_2 {
+        justify-content: space-around;
+    }
+    
+    .footer {
+        background-color: #083742;
+        background-image: none;
+    }
+
+    .contact_blocks {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        height: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        margin: 0 10px;
+    }
+
+    .img_block {
+        left: 20%;
+        top: 78%;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    .wrapper {
+        margin: 0 0px;
+    }
+
+    .img_block img {
+        width: 300px;
+    }
+
+    .img_block {
+        width: 100px;
+        left: 17%;
+        top: 79%;
+    }
+
+    .block_1_3_text h3 {
+        font-size: 15px;
+        letter-spacing: 0px;
+
+    }
+
+    .block_1_3_text span {
+        font-size: 15px;
+        letter-spacing: 0px;
+
+    }
+    
+    .block_1_3_texts {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0px;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .img_block img {
+        width: 300px;
+    }
+
+    .img_block {
+        width: 100px;
+        left: 17%;
+        top: 82%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .wrapper {
+        margin: 0 1px;
+        width: 375px;
+    }
+
+    .img_block img {
+        width: 300px;
+    }
+
+    .img_block {
+        width: 100px;
+        left: 13%;
+        top: 80%;
+    }
+
+    .block_1_2_text img {
+        width: 300px;
+    }
+    
+    .block_1_3_text h3 {
+        font-size: 15px;
+        letter-spacing: 0px;
+
+    }
+
+    .block_1_3_text span {
+        font-size: 15px;
+        letter-spacing: 0px;
+
+    }
+    
+    .block_1_3_texts {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0px;
+
+    }
+
+    .img_blocks {
+        width: 375px;
+    } 
+
+}
+
+@media screen and (max-width: 360px) {
+    .wrapper {
+        margin: 0 1px;
+        width: 360px;
+    }
+
+    .img_blocks {
+        width: 360px;
+    } 
+
+    .block_1_3_text h3 {
+        font-size: 13px;
+    }
+
+    .block_1_3_text span {
+        font-size: 13px;
+    }
+    
+    .block_1_3_texts {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        margin: 0 1px;
+        width: 320px;
+    }
+
+    .img_block img {
+        width: 250px;
+    }
+
+    .img_block {
+        width: 100px;
+        left: 13%;
+        top: 80%;
+    }
+
+    .img_blocks {
+        width: 320px;
+    } 
+
+    .block_1_3_text h3 {
+        font-size: 13px;
+    }
+
+    .block_1_3_text span {
+        font-size: 13px;
+    }
+    
+    .block_1_3_texts {
+        font-size: 10px;
+    }
+}
+

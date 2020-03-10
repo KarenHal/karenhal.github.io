@@ -1,0 +1,90 @@
+.menu_block_header {
+    margin: 0px 110px;
+    z-index: 100;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(../img/1600x800px-Ararat-Ararat-Khor-Virap_HWK8474.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_block_header {
+    margin: 0px 70px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.img_block_header img {
+    margin: 10px
+}
+
+.menu_block_header {
+    margin: 0px 110px;
+    z-index: 100;
+}
+
+.menu_block_header ul li {
+    z-index: 100;
+    display: inline;
+    margin: 0px 35px;
+}
+
+.menu_block_header ul li a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    opacity: .3;
+    transition: .2s ease-in-out;
+    border-bottom: 0px solid #D95A53;
+}
+
+.menu_block_header ul li a:hover {
+    color: #D95A53;
+    opacity: 1;
+    border-bottom: 2px solid #D95A53;
+}
+
+.background_header_menu {
+    position: absolute;
+    margin: 0px;
+    height: 80px;
+    width: 100%;
+    background-image: url(../img/bg.png);
+}
+
+.aboutUs_block_header {
+    margin: 0px 110px;
+    z-index: 100;
+}
+
+.header_block_1_aboutUs {
+    text-align: center;
+}
+
+.block_1_aboutUs_content {
+    text-align: center;
+}
+
+.block_1_aboutUs_content h2 {
+    font-family: 'Tw Cen MT', sans-serif;
+    margin-top: 135px;
+    font-weight: 600;
+    color: #075570;
+    letter-spacing: 3px;
+    font-size: 56px;
+    margin-bottom: 60px;
+}
+
+.header_block_1_aboutUs {
+    margin-bottom: 350px;
+}
