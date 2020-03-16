@@ -329,10 +329,16 @@ h2 {
 }
 
 @media screen and (max-width: 2560px) {
+    
+    .img_blocks a {
+        width: 700px;
+    }
+
     .img_block {
         left: 40%;
-        top: 78%;
+        top: 85%;
     }
+
 }
 
 @media screen and (max-width: 1440px) {

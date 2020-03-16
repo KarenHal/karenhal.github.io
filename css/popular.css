@@ -381,6 +381,19 @@ h2 {
     }
 }
 
+@media screen and (max-width: 2560px) {
+    
+    .img_blocks a {
+        width: 700px;
+    }
+
+    .img_block {
+        left: 42%;
+        top: 90%;
+    }
+
+}
+
 @media screen and (max-width: 1366px) {
 
     .img_block {

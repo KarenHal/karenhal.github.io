@@ -269,6 +269,19 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 2560px) {
+    
+    .img_blocks a {
+        width: 700px;
+    }
+
+    .main_block4 {
+        background-image: none;
+        background-color: #083742;
+    }
+
+}
+
 @media screen and (max-width: 1444px) {
 
     .menu_block_header ul li a {
@@ -294,6 +307,11 @@
         opacity: .3;
         transition: .2s ease-in-out;
         border-bottom: 0px solid #D95A53;
+    }
+
+    .img_blocks a{
+        display: inline-block;
+        width: 270px;
     }
 }
 
