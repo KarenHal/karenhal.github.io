@@ -61,6 +61,7 @@
 }
 
 .img_block img {
+    width: 400px;
     content: '';
     position: absolute;
     left: 36%;
@@ -77,7 +78,7 @@ h2 {
     font-size: 47px;
     color: #075570;
     font-family: 'Tw Cen MT', sans-serif;
-    padding-top: 111px;
+    padding-top: 122px;
     margin-bottom: 50px;
 }
 
@@ -332,6 +333,19 @@ h2 {
     
     .img_blocks a {
         width: 700px;
+    }
+
+    .img_block img {
+        left: 40%;
+        top: 86%;
+    }
+
+}
+
+@media screen and (max-width: 1920px) {
+    
+    .img_blocks a {
+        width: 550px;
     }
 
     .img_block img {

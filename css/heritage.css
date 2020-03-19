@@ -61,6 +61,11 @@
 }
 
 .img_block img {
+    width: 400px;
+
+}
+
+.img_block  {
     content: '';
     position: absolute;
     left: 36%;
@@ -274,6 +279,8 @@ h2 {
     width: 500px;
     margin: 5px;
 }
+
+
 .img_blocks a div{
     background: #000;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
     overflow: hidden;  /* Ограничиваем видиую область */
@@ -293,6 +300,8 @@ h2 {
     visibility: visible;
     z-index: 1000;
 }
+
+
 
 .hrair_hawk_main {
     display: flex;
@@ -341,7 +350,7 @@ h2 {
         width: 700px;
     }
 
-    .img_block img {
+    .img_block  {
         left: 40%;
         top: 86%;
     }
@@ -396,7 +405,7 @@ h2 {
         border-bottom: 0px solid #D95A53;
     }
 
-    .img_block img {
+    .img_block  {
         left: 29%;
         top: 75%;
     }
@@ -404,7 +413,7 @@ h2 {
 
 @media screen and (max-width: 1024px) {
 
-    .img_block img {
+    .img_block  {
         left: 25%;
         top: 85%;
     }
@@ -459,7 +468,7 @@ h2 {
         margin: 0 10px;
     }
 
-    .img_block img {
+    .img_block  {
         left: 18%;
         top: 78%;
     }
@@ -508,7 +517,7 @@ h2 {
         width: 300px;
     }
 
-    .img_block img {
+    .img_block  {
         left: 17%;
         top: 88%;
     }
@@ -524,8 +533,11 @@ h2 {
 
     .img_block img {
         width: 360px;
+    }
+
+    .img_block  {
         left: 2%;
-        top: 81%;
+        top: 85%;
     }
 
     .block_1_2_text img {
@@ -551,7 +563,7 @@ h2 {
 
     }
 
-    .img_blocks {
+    .img_blocks img{
         width: 375px;
     } 
 
@@ -563,7 +575,7 @@ h2 {
         width: 360px;
     }
 
-    .img_blocks {
+    .img_blocks img{
         width: 360px;
     } 
 
@@ -595,7 +607,7 @@ h2 {
         width: 300px;
     }
 
-    .img_block img {
+    .img_block  {
         left: 3%;
         top: 87%;
     }

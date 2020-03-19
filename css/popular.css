@@ -68,7 +68,7 @@
     background-image: url(../img/bg.png);
 }
 
-.img_block {
+.img_block img {
     content: '';
     position: absolute;
     left: 42%;

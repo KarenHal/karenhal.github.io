@@ -409,6 +409,10 @@
 
 @media screen and (max-width: 414px) {
 
+    .armenia h2 {
+        font-size: 50px;
+    }
+
     .background_header_menu {
         height: 35%;
     }
@@ -443,6 +447,10 @@
 
 
 @media screen and (max-width: 375px) {
+
+    .armenia h2 {
+        font-size: 50px;
+    }
 
     .background_header_menu {
         height: 37%;
@@ -482,6 +490,11 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    .main_block_3 h2{
+        font-size: 25px;
+    }
+
     .background_header_menu {
         height: 50%;
     }
